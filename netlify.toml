@@ -1,7 +1,7 @@
 [build]
   base = "cantonese-app"
   command = "npm run build"
-  publish = "cantonese-app/.next"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
